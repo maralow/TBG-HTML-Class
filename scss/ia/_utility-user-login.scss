@@ -1,0 +1,40 @@
+.header-user-login {
+	position: absolute;
+	top: 50px;
+	right: 20px;
+}
+
+.user-login-button {
+	display: inline-block;
+	position: relative;
+	height: 26px;
+	width: 70px;
+	border: 1px solid gray;
+	background-color: #ADD8E6;
+	border-radius: 3px;
+	padding-right: 10px;
+}
+
+.user-login-flyout {
+	padding: 10px;
+	width: 220px;
+	position: absolute;
+	border: 1px solid gray;
+	left: -150px;
+	background-color: white;
+	z-index: $zindexLoginFlyout;
+}
+
+input [type="submit"] {
+	width: 100px;
+	height: 30px;
+	border-radius: 3px;
+
+}
+.user-login-help {
+	font-size: 10px;
+}
+
+.input-field-bottom-margin {
+	margin-bottom: 10px;
+}

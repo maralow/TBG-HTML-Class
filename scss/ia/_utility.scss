@@ -1,0 +1,21 @@
+/*Rules for floats in utility*/
+.u-float-left {
+	float:left;
+}
+
+.u-float-right {
+	float:right;
+}
+/* .is-collapsed applies to nav-breadcrumb-children list items */
+
+.is-collapsed {
+display: none;
+}
+
+/* .is-open and .is-closed apply to nav-breadcrumb-toggle on parent item */
+.is-open {
+}
+
+.is-closed {
+
+}

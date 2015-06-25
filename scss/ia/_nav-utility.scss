@@ -1,0 +1,32 @@
+.nav-utility { 
+      display: inline-block;
+      position: absolute;
+      left:260px;
+      
+       li {
+      display: inline-block;
+      padding: 10px 20px 10px 20px;
+
+            a {
+                  color: green;
+
+            &.active {
+                  color: black;
+                 }
+
+            &:hover {
+                  text-decoration: underline;
+                 }
+
+            }
+      }
+
+}    
+
+
+@media (max-width: 900px) {
+
+  .header-utility .nav-utility {
+    display: none;
+  }
+}

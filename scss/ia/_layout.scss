@@ -1,0 +1,68 @@
+@mixin width ($context,$target) {
+	width: percentage ($target / $context);
+}
+
+.l-wrapper {
+width: 100%;
+max-width: 1300px;
+margin: 0 auto;
+}
+
+.l-contain {
+	width: 94%;
+	margin: 0 auto;
+}
+.l-1-col-master  .l-content-primary {
+width: 100%;
+}
+
+
+.l-2-col-master  .l-content-primary {
+width: 75%;
+float: left;
+}
+
+.l-2-col-master  .content-nav{
+@include width (1200, 300);
+float: left;
+}
+
+.l-3-col-master  .l-content-primary {
+width: 45%;
+float: left;
+}
+
+.l-3-col-master  .content-nav{
+@include width (1200, 300);
+float: left;
+}
+
+.l-3-col-master  .content-secondary{
+width: 25%;
+float: right;
+}
+
+.l-header {
+	background-color: #FFE0FF;
+	width: 100%;
+	max-width: 1300px;
+}
+.l-footer {
+	width: 100%;
+	max-width: 1300px;
+}
+
+@media (max-width: 900px) {
+
+	.content-nav {
+		display:none;
+	}
+
+	.l-2-col-master  .l-content-primary {
+		width: auto;
+	}
+
+	.header-utility .nav-utility {
+		display: none;
+	}
+}

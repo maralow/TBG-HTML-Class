@@ -1,0 +1,68 @@
+input {
+	display: block;
+    background: #ffffef;
+    height: 34px;
+    width: 260px;
+
+}
+
+input[type="radio"]{
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+    width: 26px;
+    height: auto;
+}
+
+input[type="select"] {
+    height: auto;
+
+}
+
+
+.btn-signup {
+	display: block;
+    background: #9fd0f4;
+    height: 40px;
+    width: 260px;
+    font-size: 18px;
+    margin-top: 26px;
+}
+
+label {
+	display: block;
+	margin-bottom: 6px;
+	margin-top: 26px;
+	font-size: 16px;
+}
+
+legend {
+    display: block;
+    padding-bottom: 6px;
+    padding-top: 32px;
+    font-size: 16px;
+}
+
+.error {
+	color: red;
+	font-size: 11px;
+}
+
+.required {
+	color: red;
+}
+
+// Used to demonstrate error state
+.input-error {
+    border: 1px solid red;
+    background: #ffffef;
+}
+
+.form-selector {
+	height: 34px;
+    width: 260px;
+}

@@ -1,0 +1,13 @@
+.header-search {
+      display: block;
+      position: absolute;
+      top:6px;
+      right:20px;
+      
+           &[placeholder] {
+                  color: #C0C0C0;
+                 }
+                        .header-search-label {
+                              display: none;
+                        }
+           }

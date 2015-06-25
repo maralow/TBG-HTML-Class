@@ -1,0 +1,48 @@
+.content-nav a {
+	display: block;
+}
+
+.nav-breadcrumb-parent {
+	font-size: 18px;
+	font-weight: bold;
+	position: relative;
+	min-height: 30px;
+	padding-top: 6px;
+}
+
+.nav-breadcrumb-parentlink {
+	width:60%;
+}
+.nav-breadcrumb-toggle {
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	height: 30px;
+	width: 30px;
+	border: 1px solid red;
+	text-align: center;
+	line-height: 30px;
+}
+
+.nav-breadcrumb-level {
+	padding: 10px 20px;
+}
+
+.nav-breadcrumb-childitems li {
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.nav-breadcrumb-level-1 {
+	background: #999999;
+}
+.nav-breadcrumb-level-2 {
+	padding-left: 30px;
+	background: #cccccc;
+}
+.nav-breadcrumb-level-3 {
+	padding-left: 50px;
+	background: #e6e6e6;
+}
+
+

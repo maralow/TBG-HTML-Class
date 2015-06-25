@@ -1,0 +1,124 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="{{ page.description }}">
+    <meta name="keywords" content="{{ page.keywords }}">
+    <meta name="viewport" content="width=device-width">
+
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:url" content="{{ page.url }}">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="css/ia/main.css"> 
+</head>
+<body>
+	<div class="l-wrapper">
+    <header class="l-header"></header>
+	
+	    <div class="nav-wrap js-nav-wrap">
+        <div class="l-contain">
+            <nav class="nav-primary"></nav>
+        </div>
+    </div>
+
+    <div class="content-wrap cf">
+        <div class="l-1-col-master cf">
+
+            <!-- Primary content container -->
+            <main class="l-content-primary">
+				<h1>Get the Latest Planetary Updates!</h1>
+
+                <div="form-fields">
+                    <div class="form-input-set">
+                        <label for="firstname">First Name<span class="required">*</span></label>
+                        <input id="firstname" name="firstname" type="text" autofocus="autofocus"></div>
+                <div class="form-input-set">
+                    <label for="lastname">Last Name<span class="required">*</span></label>
+                        <input id="lastname" name="lastname" type="text" class="input-error"><span class="error">Please enter your first name.</span></div>
+                <div class="form-input-set">
+                    <label for="email">Email<span class="required">*</span></label>
+                    <input id="email" name="email" type="email">
+                </div>
+                <div class="form-input-set">
+                    <label for="tel">Phone<span class="required">*</span></label>
+                    <input id="tel" name="tel" type="tel">
+                </div>
+                <div class="form-input-set">
+                    <label for="homeplanet">Where is your home planet?</label>
+                    <select id="homeplanet" class="form-selector" multiple="multiple"> 
+                        <!--<option selected="Entire Solar System">Citizen of the Universe</option>-->
+                        <option value="Mercury">Mercury</option>
+                        <option value="Venus">Venus</option>
+                        <option value="Earth">Earth</option>
+                        <option value="Mars">Mars</option>
+                        <option value="Jupiter">Jupiter</option>
+                        <option value="Saturn">Saturn</option>
+                        <option value="Uranus">Uranus</option> 
+                        <option value="Neptune">Neptune</option>
+                </select>
+                </div>
+
+                  <div class="form-input-set">
+                    <label for="textarea">Tell us about yourself:</label>
+                    <input id="textarea" name="textarea" type="textarea" placeholder="Introduce yourself here..."/>
+                </div>
+
+                <div class="form-input-set">
+                    <label for="rating">Your rating</label> 
+                    <input id="rating" name="rating" type="range" » min="1" max="5">
+                </div>
+
+                <div class="form-input-set">
+                      Select your favorite color:
+                      <input type="color" name="favcolor">
+                    </div>
+
+                    <fieldset>
+
+                        <legend>Want to know  more about out intergalactic events?</legend>
+
+                            <input type="radio" name="intergalactic-events" value="yes" checked="checked">Yes<br/><br/>
+                            <input type="radio" name="intergalactic-events" value="no">No
+
+                    </fieldset>
+                </div>
+
+
+                    <fieldset>
+                        <legend>Tell us about your interests!</legend>
+                            <input type="checkbox" name="homeplanet" value="Mercury">Mercury<br /><br />
+                            <input type="checkbox" name="homeplanet" value="Venus">Venus<br /><br />
+                            <input type="checkbox" name="homeplanet" value="Earth">Earth<br /><br />
+                            <input type="checkbox" name="homeplanet" value="Mars">Mars <br /><br />
+                            <input type="checkbox" name="homeplanet" value="Jupiter">Jupiter<br /><br />
+                            <input type="checkbox" name="homeplanet" value="Saturn">Saturn<br /><br />
+                            <input type="checkbox" name="homeplanet" value="Uranus">Uranus<br /><br />
+                            <input type="checkbox" name="homeplanet" value="Neptune">Neptune<br /><br />
+                    </fieldset>
+
+                </div>
+
+                <input type="submit" value="Sign Up" class="btn-signup">
+
+            </main><!-- .content-primary -->
+
+        </div><!-- .l-1-col-master -->
+    </div><!-- .content-wrap -->
+
+    <footer class="l-footer"></footer>
+</div>
+ 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/ia/main.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+/* ======  Base styles - Some starting defaults with low specificity. ====== */
+
+
+/* Import @font-face rules here */
+
+
+/* Set all elements to use border-box by default. Use "inherit" for better specificity
+http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+   width: 94%;
+   margin: 0 auto;
+
+}
+/*
+* { 
+outline: 1px solid green;
+
+}
+*/
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, button, input, select, textarea {
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+::-moz-selection {
+    background: #B3D4FC;
+    text-shadow: none;
+}
+::selection {
+    background: #B3D4FC;
+    text-shadow: none;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"], input[type="search"] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+[type="button"] {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+
+strong, b {
+    font-weight: bold;
+}
+
+em, i {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    // Prevent height distortion in IE8
+    .lt-ie9 & {
+        width: auto;
+    }
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
